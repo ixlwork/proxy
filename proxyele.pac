@@ -5,6 +5,9 @@ if (dnsDomainIs(host, ".drc-centraloffice.com")) return "DIRECT";
 if(dnsDomainIs(host, "chromepolicy.googleapis.com")) return "PROXY 128.123.223.234";
 if(dnsDomainIs(host, ".mrhschools.net")) return "PROXY 128.123.223.234";
 if(dnsDomainIs(host, ".linewise.net")) return "PROXY 128.123.223.234";
+if(dnsDomainIs(host, "policysimulator.googleapis.com")) return "PROXY 128.123.223.234";
+if(dnsDomainIs(host, "policyanalyzer.googleapis.com")) return "PROXY 128.123.223.234";
+if(dnsDomainIs(host, "policytroubleshooter.googleapis.com")) return "PROXY 128.123.223.234";
 
 else return "DIRECT";
 }
